@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pesans",
+  "info": {
+    "singularName": "pesan",
+    "pluralName": "pesans",
+    "displayName": "Inbox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_lengkap": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Telp": {
+      "type": "text"
+    },
+    "Pesan": {
+      "type": "richtext"
+    }
+  }
+}

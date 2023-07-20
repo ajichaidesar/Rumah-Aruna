@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshops",
+  "info": {
+    "singularName": "workshop",
+    "pluralName": "workshops",
+    "displayName": "Workshop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Tanggal": {
+      "type": "datetime"
+    },
+    "Gambar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Deskripsi": {
+      "type": "richtext"
+    },
+    "Persyaratan": {
+      "type": "enumeration",
+      "enum": [
+        "Isi persyaratan"
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kontaks",
+  "info": {
+    "singularName": "kontak",
+    "pluralName": "kontaks",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Alamat_Anda": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Maps": {
+      "type": "string"
+    },
+    "Kontak_Anda": {
+      "type": "integer"
+    }
+  }
+}

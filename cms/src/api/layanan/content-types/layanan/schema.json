@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "layanans",
+  "info": {
+    "singularName": "layanan",
+    "pluralName": "layanans",
+    "displayName": "Layanan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "text"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descripsi": {
+      "type": "text"
+    }
+  }
+}

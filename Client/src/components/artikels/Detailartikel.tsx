@@ -1,6 +1,6 @@
 import React from 'react';
 import { artikel1 } from '../../assets/img/galery/index';
-import Artikellainnya from './Artikellainnya';
+import  Artikellainnya  from '../artikels/Artikellainnya';
 
 const articles = [
   {
@@ -14,7 +14,7 @@ const articles = [
     ],
   },
 ];
-
+// eslint-disable-next-line
 const Detailartikel = () => {
   return (
     <div className='w-full bg-white font-andika py-32 lg:py-50'>
